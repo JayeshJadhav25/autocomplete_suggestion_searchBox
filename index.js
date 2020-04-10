@@ -23,10 +23,10 @@ app.set('view engine','handlebars');
 
 //Creating a connection of database.
 var connection=mysql.createConnection({
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    passsword: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
+    host: "remotemysql.com",
+    user: "pcZ0OkiicI",
+    password: "VM6g25BYW7",
+    database: 'pcZ0OkiicI'
 });
 
 //Checking database is connected or not.
